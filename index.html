@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101426">
+<meta name="description" content="Anupam's personal developer portfolio — web projects, design interests and developer experiments.">
+<title>Anupam | Developer Portfolio</title>
+<style>
+:root{color-scheme:dark;--bg:#101426;--card:#1b233c;--fg:#f5f6ff;--sub:#b9c4de;--a:#b9a3ff;--b:#8ce4df}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;background:radial-gradient(ellipse at 90% 0%,#2b2455 0%,transparent 48%),radial-gradient(ellipse at 0% 50%,#133841 0%,transparent 50%),var(--bg);color:var(--fg)}
+a{color:inherit}a:focus-visible{outline:3px solid var(--b);outline-offset:4px}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}
+.skip{position:absolute;top:-80px;left:20px;background:white;color:black;padding:10px}.skip:focus{top:10px}
+header{display:flex;justify-content:space-between;align-items:center;min-height:84px;border-bottom:1px solid #ffffff24}
+.brand{font-size:1.3rem;font-weight:800;letter-spacing:-.06em;text-decoration:none}.brand span{color:var(--b)}
+nav{display:flex;gap:24px}nav a{text-decoration:none;color:var(--sub);font-size:.92rem}nav a:hover{color:var(--fg)}
+.hero{padding:110px 0 115px;display:grid;grid-template-columns:1.5fr .5fr;gap:24px;align-items:center}
+.eyebrow{text-transform:uppercase;font-size:.8rem;font-weight:700;letter-spacing:.19em;color:var(--b)}
+h1{font-size:clamp(3.5rem,8vw,7rem);line-height:1.03;letter-spacing:-.075em;margin:18px 0 26px}h1 span{color:var(--a)}
+.lead{font-size:clamp(1.05rem,2vw,1.32rem);max-width:650px;color:var(--sub);margin-bottom:33px}
+.buttons{display:flex;flex-wrap:wrap;gap:12px}
+.button{display:inline-flex;align-items:center;justify-content:center;padding:14px 21px;border:1px solid #7c73b7;border-radius:12px;text-decoration:none;font-weight:700;transition:transform .15s}
+.button:hover{transform:translateY(-3px)}.primary{background:var(--a);border-color:var(--a);color:#1c1739}
+.mark{justify-self:center;width:min(250px,100%);aspect-ratio:1;display:grid;place-items:center;border:1px solid #a79cf966;border-radius:40px;background:linear-gradient(135deg,#443869,#18394a);transform:rotate(-7deg);box-shadow:0 0 70px #8c72ff40}
+.mark span{font-size:10rem;font-weight:800;line-height:1;transform:rotate(7deg)}
+section{padding:40px 0 75px}h2{letter-spacing:-.05em;line-height:1.2;font-size:clamp(2rem,3vw,2.65rem);margin:0 0 14px}
+.section-intro{color:var(--sub);margin:0 0 26px;max-width:690px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.card{border:1px solid #3a4465;border-radius:20px;background:#1a223aab;padding:28px}
+.card .symbol{font-size:1.8rem;color:var(--b)}.card h3{font-size:1.25rem;margin:16px 0 7px}
+.card p{margin:0;color:var(--sub)}.about{padding:35px;border-radius:20px;border:1px solid #3a4465;background:#182039aa}
+.about p{color:var(--sub);max-width:790px;margin:0;font-size:1.08rem}
+.contact{text-align:center;margin:25px 0 90px;padding:52px 30px;border:1px solid #7473a0;border-radius:24px;background:linear-gradient(120deg,#302655c9,#14505ba6)}
+.contact p{color:#d9e1ef;max-width:680px;margin:0 auto 25px}
+footer{border-top:1px solid #ffffff28;padding:27px 0 40px;display:flex;justify-content:space-between;gap:20px;color:var(--sub);font-size:.92rem}footer a{color:var(--b)}
+@media(max-width:740px){header{min-height:74px}nav{gap:13px}.hero{display:block;padding:75px 0 65px}.mark{display:none}.grid{grid-template-columns:1fr}.contact{margin-bottom:55px;padding:36px 22px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap"><a class="brand" href="#home">anupam<span>.</span></a><nav aria-label="Main navigation"><a href="#focus">Focus</a><a href="#about">About</a><a href="#contact">Connect</a></nav></header>
+<main id="main">
+<div class="wrap hero" id="home"><div><div class="eyebrow">Personal developer space</div><h1>Hi, I'm <span>Anupam.</span></h1><p class="lead">Exploring web experiences, practical developer tools, and creative experiments. This space brings my interests and public work together.</p><div class="buttons"><a class="button primary" href="https://github.com/anupammishra00011-commits" target="_blank" rel="noopener noreferrer">Explore GitHub ↗</a><a class="button" href="#about">About this space ↓</a></div></div><div class="mark" aria-hidden="true"><span>A</span></div></div>
+<section class="wrap" id="focus"><h2>What I'm exploring</h2><p class="section-intro">Technical areas I enjoy learning about and experimenting with. This portfolio will grow as I publish more of my work.</p><div class="grid">
+<article class="card"><span class="symbol" aria-hidden="true">⌘</span><h3>Web experiences</h3><p>Responsive interfaces, accessible navigation, and the small details that make websites pleasant to use.</p></article>
+<article class="card"><span class="symbol" aria-hidden="true">◇</span><h3>Design & usability</h3><p>Clear typography, meaningful layouts, and simple interactions that help people get things done.</p></article>
+<article class="card"><span class="symbol" aria-hidden="true">↗</span><h3>Developer tools</h3><p>Hands-on experiments, open-source resources, and practical workflows for building on the web.</p></article>
+</div></section>
+<section class="wrap" id="about"><div class="about"><h2>About this portfolio</h2><p>I'm Anupam, and this is a personal corner of the web for my development interests, learning notes, and future project write-ups. I prefer thoughtful, useful digital experiences. For public code and updates, see my GitHub profile.</p></div></section>
+<div class="wrap"><section class="contact" id="contact"><h2>Let's connect</h2><p>Visit my GitHub profile to see repositories, ongoing experiments and what I'm exploring next.</p><a class="button primary" href="https://github.com/anupammishra00011-commits" target="_blank" rel="noopener noreferrer">View GitHub profile ↗</a></section></div>
+</main><footer class="wrap"><span>© 2026 Anupam · Personal portfolio</span><a href="#home">Back to top ↑</a></footer>
+</body></html>
